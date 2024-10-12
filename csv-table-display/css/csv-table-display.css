@@ -1,0 +1,144 @@
+.csv-table-container.company-ratings {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.rank-options {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.rank-option {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.rank-option.selected {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.company-ratings .csv-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+.company-ratings .csv-table th,
+.company-ratings .csv-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.company-ratings .csv-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.company-ratings .csv-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.company-ratings .csv-table td.rank {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}
+
+.company-ratings .csv-table td.company {
+    display: flex;
+    align-items: center;
+}
+
+.company-ratings .csv-table .company-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.company-ratings .csv-table .company-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.company-ratings .csv-table .company-ticker {
+    color: #888;
+    font-size: 12px;
+}
+
+.company-ratings .csv-table td.revenue,
+.company-ratings .csv-table td.price {
+    font-weight: bold;
+}
+
+.company-ratings .csv-table td.today {
+    font-weight: bold;
+}
+
+.company-ratings .csv-table td.today.positive {
+    color: #4CAF50;
+}
+
+.company-ratings .csv-table td.today.negative {
+    color: #F44336;
+}
+
+.company-ratings .csv-table td.price-chart img {
+    max-width: 100px;
+    height: 30px;
+}
+
+.company-ratings .csv-table td.country {
+    display: flex;
+    align-items: center;
+}
+
+.company-ratings .csv-table td.country img {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .company-ratings .csv-table th,
+    .company-ratings .csv-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .company-ratings .csv-table .company-logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .company-ratings .csv-table td.price-chart img {
+        max-width: 80px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .company-ratings .csv-table th,
+    .company-ratings .csv-table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .company-ratings .csv-table .company-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .company-ratings .csv-table td.price-chart img {
+        max-width: 60px;
+        height: 20px;
+    }
+}

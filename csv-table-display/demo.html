@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Ratings Demo</title>
+    <link rel="stylesheet" href="css/csv-table-display.css">
+</head>
+<body>
+    <div class="csv-table-container company-ratings">
+        <div class="rank-options">
+            Rank by
+            <span class="rank-option">Market Cap</span>
+            <span class="rank-option">Earnings</span>
+            <span class="rank-option selected">Revenue</span>
+            <span class="rank-option">P/E ratio</span>
+            <span class="rank-option">Dividend %</span>
+            <span class="rank-option">Operating Margin</span>
+            <span class="rank-option">Employees</span>
+        </div>
+        <table class="csv-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Revenue</th>
+                    <th>Price</th>
+                    <th>Today</th>
+                    <th>Price (30 days)</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/apple.com" alt="Apple logo" class="company-logo">
+                        <span class="company-name">Apple</span>
+                        <span class="company-ticker">AAPL</span>
+                    </td>
+                    <td class="revenue">$385.60 B</td>
+                    <td class="price">$227.55</td>
+                    <td class="today negative">-0.65%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/google.com" alt="Alphabet logo" class="company-logo">
+                        <span class="company-name">Alphabet (Google)</span>
+                        <span class="company-ticker">GOOG</span>
+                    </td>
+                    <td class="revenue">$328.28 B</td>
+                    <td class="price">$164.52</td>
+                    <td class="today positive">+0.82%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft logo" class="company-logo">
+                        <span class="company-name">Microsoft</span>
+                        <span class="company-ticker">MSFT</span>
+                    </td>
+                    <td class="revenue">$245.12 B</td>
+                    <td class="price">$416.32</td>
+                    <td class="today positive">+0.12%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/ibm.com" alt="IBM logo" class="company-logo">
+                        <span class="company-name">IBM</span>
+                        <span class="company-ticker">IBM</span>
+                    </td>
+                    <td class="revenue">$62.36 B</td>
+                    <td class="price">$233.26</td>
+                    <td class="today positive">+0.10%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/oracle.com" alt="Oracle logo" class="company-logo">
+                        <span class="company-name">Oracle</span>
+                        <span class="company-ticker">ORCL</span>
+                    </td>
+                    <td class="revenue">$53.81 B</td>
+                    <td class="price">$175.77</td>
+                    <td class="today positive">+0.21%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/se.com" alt="Schneider Electric logo" class="company-logo">
+                        <span class="company-name">Schneider Electric</span>
+                        <span class="company-ticker">SU.PA</span>
+                    </td>
+                    <td class="revenue">$39.68 B</td>
+                    <td class="price">$264.39</td>
+                    <td class="today positive">+1.00%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/fr.png" alt="France flag"> France</td>
+                </tr>
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/salesforce.com" alt="Salesforce logo" class="company-logo">
+                        <span class="company-name">Salesforce</span>
+                        <span class="company-ticker">CRM</span>
+                    </td>
+                    <td class="revenue">$36.46 B</td>
+                    <td class="price">$288.10</td>
+                    <td class="today negative">-0.71%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/sap.com" alt="SAP logo" class="company-logo">
+                        <span class="company-name">SAP</span>
+                        <span class="company-ticker">SAP</span>
+                    </td>
+                    <td class="revenue">$35.12 B</td>
+                    <td class="price">$228.15</td>
+                    <td class="today positive">+1.50%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/de.png" alt="Germany flag"> Germany</td>
+                </tr>
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/adobe.com" alt="Adobe logo" class="company-logo">
+                        <span class="company-name">Adobe</span>
+                        <span class="company-ticker">ADBE</span>
+                    </td>
+                    <td class="revenue">$18.24 B</td>
+                    <td class="price">$532.40</td>
+                    <td class="today positive">+0.35%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="company">
+                        <img src="https://logo.clearbit.com/vmware.com" alt="VMware logo" class="company-logo">
+                        <span class="company-name">VMware</span>
+                        <span class="company-ticker">VMW</span>
+                    </td>
+                    <td class="revenue">$13.35 B</td>
+                    <td class="price">$145.20</td>
+                    <td class="today negative">-0.18%</td>
+                    <td class="price-chart">
+                        <img src="https://via.placeholder.com/100x30?text=Chart" alt="Price chart">
+                    </td>
+                    <td class="country"><img src="https://flagcdn.com/w20/us.png" alt="USA flag"> USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
